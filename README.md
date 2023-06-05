@@ -1,2 +1,10 @@
-command for awk
-awk –f filename.awk filename.tr 
+command for awk;
+awk –f filename.awk filename.tr;
+f1.sh;
+grep "^r" lab6.tr|grep tcp|tail -n 1|cut -d " " -f 6;
+f2.sh;
+grep "^r" lab6.tr |grep -c "tcp";
+f3.sh;
+grep "^r" lab6.tr|grep "cbr"|tail -n 1| cut -d " " -f 6;
+f4.sh;
+grep "^r" lab6.tr |grep -c "cbr";
